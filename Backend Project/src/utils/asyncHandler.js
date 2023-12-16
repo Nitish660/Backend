@@ -2,7 +2,7 @@
 //const asynHandler = (func) => () => {}
 //const asyncHandler = (func) =. async() => {}
 
-import { request } from "express"
+import request  from "express"
 
 
 const asyncHandler = (requestHandler) => {
